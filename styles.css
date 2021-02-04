@@ -21,10 +21,32 @@ h2 {
 
 section {
     padding: 0 0 2em;
+    position: relative;
 }
 
 section:nth-child(2n) {
     background: #FFF;
+    margin-bottom: 3em;
+}
+
+section:nth-child(2n):before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0) 49%, #FFF 50%);
+    top: -3em;
+    left: 0;
+}
+
+section:nth-child(2n):after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    background: linear-gradient(to top right, rgba(255,255,255,0) 49%, #FFF 50%);
+    bottom: -3em;
+    left: 0;
 }
 
 
