@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: #FCFCFC;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.rf-header {
+    box-shadow: none;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.rf-footer {
+    margin-top: 5em;
+    border-top: 1px solid #F2F2F2;
+}
+
+
+section {
+    padding: 2em 0;
+}
+
+section:nth-child(2n) {
+    background: #FFF;
+}
+
+
+.kpi {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.kpi strong {
+    font-size: 3.5rem;
+    font-weight: 600;
+    /*color: #000091;*/
+    color: #00AC8C;
+    line-height: 1.2;
+}
