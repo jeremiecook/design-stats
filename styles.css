@@ -20,12 +20,42 @@ h2 {
 
 
 section {
-    padding: 2em 0;
+    padding: 0 0 2em;
 }
 
 section:nth-child(2n) {
     background: #FFF;
 }
+
+
+section.startups .rf-highlight {
+    border-left-color: #00AC8C;;
+}
+
+section.startups .kpi strong {
+    color: #00AC8C;
+}
+
+
+section.designers .rf-highlight {
+    border-left-color: #5770BE;;
+}
+
+section.designers .kpi strong {
+    color: #5770BE;
+}
+
+section.community .rf-highlight {
+    border-left-color: #FF6F4C;;
+}
+
+section.community .kpi strong {
+    color: #FF6F4C;
+}
+
+
+
+
 
 
 .kpi {
@@ -35,12 +65,18 @@ section:nth-child(2n) {
     line-height: 1.4;
     font-weight: bold;
     margin: 1em;
+    max-width: 14em;
 }
 
 .kpi strong {
     font-size: 3.5rem;
     font-weight: 600;
     /*color: #000091;*/
-    color: #00AC8C;
+
     line-height: 1.2;
+}
+
+.kpi p {
+    font-size: .9rem;
+    font-weight: normal;
 }
