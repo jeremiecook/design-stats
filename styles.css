@@ -23,7 +23,6 @@ h2 {
 
 
 
-
 section {
     padding: 0 0 2em;
     position: relative;
@@ -93,15 +92,24 @@ section.community .kpi strong {
     flex-wrap: wrap;
 }
 
+.kpis a {
+    color: var(--info);
+}
+
+
 .kpi {
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
-    line-height: 1.4;
-    font-weight: bold;
     margin: 1em;
     max-width: 35%;
     margin-right: 5%;
+}
+
+.kpi h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 0;
 }
 
 .kpi strong {
